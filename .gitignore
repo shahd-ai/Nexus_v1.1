@@ -7,6 +7,9 @@
 
 # Allow Jupyter notebooks
 !*.ipynb
+# Allow Excel datasets
+!datasets/*.xlsx
+!datasets/*.xls
 
 # Allow specific Python files
 !preparation_data.py
