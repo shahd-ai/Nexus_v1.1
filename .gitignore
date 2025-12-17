@@ -30,6 +30,8 @@
 !dso2/**
 !dso2_part2/
 !dso2_part2/**
+!Rlt_models/
+!Rlt_models/**
 # Allow specific Python files
 !preparation_data.py
 !understanding_data.py
