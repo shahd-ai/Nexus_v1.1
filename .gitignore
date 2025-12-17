@@ -10,7 +10,7 @@
 # Allow Excel datasets
 !datasets/*.xlsx
 !datasets/*.xls
-
+!datasets/*.csv
 # Allow specific Python files
 !preparation_data.py
 !understanding_data.py
