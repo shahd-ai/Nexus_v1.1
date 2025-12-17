@@ -26,7 +26,8 @@
 !plots/**
 !script/
 !script/**
-
+!dso2/
+!dso2/**
 # Allow specific Python files
 !preparation_data.py
 !understanding_data.py
