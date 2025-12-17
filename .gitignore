@@ -1,0 +1,23 @@
+# Ignore everything by default
+*
+
+# Allow README
+!README
+!README.md
+
+# Allow Jupyter notebooks
+!*.ipynb
+
+# Allow specific Python files
+!preparation_data.py
+!understanding_data.py
+!scenarios.py
+!run_rlt.py
+!rlt_module2.py
+!rlt_simulation_testing.py
+!rlt_module.py
+!run_real_datasets.py
+!Enhanced_rlt.py
+
+# Allow .gitignore itself
+!.gitignore
