@@ -28,6 +28,8 @@
 !script/**
 !dso2/
 !dso2/**
+!dso2_part2/
+!dso2_part2/**
 # Allow specific Python files
 !preparation_data.py
 !understanding_data.py

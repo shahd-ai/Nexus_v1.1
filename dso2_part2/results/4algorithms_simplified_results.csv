@@ -1,0 +1,9 @@
+Dataset,Algorithm,Score,Metric,Avg_Time_Sec,Type
+Breast Cancer,Random Forest (Baseline),3.481005897905558,RMSE,0.1345592737197876,regression
+Breast Cancer,Extra Trees (ET),3.6528643292382945,RMSE,0.0856313705444336,regression
+Breast Cancer,RLT Aggressive (muting=80%),3.929398563442318,RMSE,100.41954433917999,regression
+Breast Cancer,RLT Linear (k=2),3.762839543167664,RMSE,93.96707773208618,regression
+Parkinsons ,Random Forest (Baseline),0.8974358974358975,Accuracy,0.16832268238067627,classification
+Parkinsons ,Extra Trees (ET),0.923076923076923,Accuracy,0.12262821197509766,classification
+Parkinsons ,RLT Aggressive (muting=80%),0.905982905982906,Accuracy,12.04594624042511,classification
+Parkinsons ,RLT Linear (k=2),0.9145299145299145,Accuracy,11.789630115032196,classification
