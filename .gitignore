@@ -11,6 +11,17 @@
 !datasets/*.xlsx
 !datasets/*.xls
 !winequality-red.csv
+!auto-mpg.csv
+!bank.csv
+!Boston_housing.csv
+!breast_cancer.csv
+!concrete_data.csv
+!Ozone.csv
+!paddydataset.csv
+!parkinsons.csv
+!winequality-white.csv
+!understanding.csv
+
 # Allow specific Python files
 !preparation_data.py
 !understanding_data.py
