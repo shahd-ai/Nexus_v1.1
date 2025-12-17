@@ -21,6 +21,11 @@
 !parkinsons.csv
 !winequality-white.csv
 !understanding.csv
+# Allow RLT models folder
+!plots/
+!plots/**
+!script/
+!script/**
 
 # Allow specific Python files
 !preparation_data.py
