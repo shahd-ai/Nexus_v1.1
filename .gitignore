@@ -32,6 +32,8 @@
 !dso2_part2/**
 !Rlt_models/
 !Rlt_models/**
+!rlt_streamlit_app/
+!rlt_streamlit_app/**
 # Allow specific Python files
 !preparation_data.py
 !understanding_data.py
