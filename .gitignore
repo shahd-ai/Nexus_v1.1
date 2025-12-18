@@ -21,6 +21,9 @@
 !parkinsons.csv
 !winequality-white.csv
 !understanding.csv
+!requirements.txt
+!Makefile.txt
+
 # Allow RLT models folder
 !plots/
 !plots/**

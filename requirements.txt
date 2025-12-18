@@ -1,0 +1,31 @@
+# Core Data Science Libraries
+numpy
+pandas
+
+# Machine Learning
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Image Processing
+Pillow
+
+# Jupyter Support
+jupyter
+ipython
+
+# MLOps & Experiment Tracking
+mlflow
+
+# API Framework
+fastapi
+uvicorn
+
+# Model Persistence
+joblib
+
+# Optional: Excel file support (if needed)
+openpyxl
+
