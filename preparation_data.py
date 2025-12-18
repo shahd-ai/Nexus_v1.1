@@ -18,6 +18,20 @@ def impute_missing_with_rf(df):
         DataFrame with missing values filled.
     """
     df = df.copy()
+    # First pass: fill obvious NaN in numeric columns with median
+    numeric_cols = df.select_dtypes(include=['int64', 'float64']).columns
+    for col in numeric_cols:
+        if df[col].isna().sum() > 0:
+            df[col].fillna(df[col].median(), inplace=True)
+    
+    # Second pass: fill NaN in categorical columns with mode
+    categorical_cols = df.select_dtypes(include=['object']).columns
+    for col in categorical_cols:
+        if df[col].isna().sum() > 0:
+            df[col].fillna(df[col].mode()[0] if not df[col].mode().empty else 'Unknown', inplace=True)
+    
+
+
     
     # Identify columns with missing values
     columns_with_na = df.columns[df.isna().sum() > 0]
