@@ -655,4 +655,4 @@ For academic use, please cite this work as:
 **Document Version**: 2.0 (Production Release)  
 **Last Updated**: December 2025  
 **Status**: Production Ready ✅  
-**License**: Academic & Commercial Use
+**License**: Academic   

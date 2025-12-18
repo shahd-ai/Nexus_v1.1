@@ -36,6 +36,9 @@
 !rlt_streamlit_app/**
 # Allow specific Python files
 !preparation_data.py
+!mlflow_config.py
+!mlflow
+!main.py
 !understanding_data.py
 !scenarios.py
 !run_rlt.py
